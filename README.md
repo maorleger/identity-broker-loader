@@ -14,7 +14,7 @@ Sets up the various files and fails to load the `identity-broker-loader` package
 
 - https://github.com/maorleger/identity-broker-loader/commit/90ca8a77aa3abac701acdf1829f14f2428a9a4f7
 
-Installs the `identity-broker-loader` package and loads it successfully.
+Installs the `@azure/identity-broker` package and loads it successfully.
 
 ## How to run
 
