@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@azure/identity": "file:azure-identity-4.9.2.tgz"
+    "@azure/identity": "file:azure-identity-4.9.2.tgz",
+    "@azure/identity-broker": "^1.2.0"
   }
 }
