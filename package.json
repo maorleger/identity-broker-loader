@@ -1,0 +1,16 @@
+{
+  "name": "identity-broker-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:esm": "node index.mjs",
+    "start:cjs": "node index.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/identity": "file:azure-identity-4.9.2.tgz"
+  }
+}
