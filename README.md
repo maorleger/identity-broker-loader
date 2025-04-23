@@ -22,12 +22,3 @@ Installs the `@azure/identity-broker` package and loads it successfully.
 2. Run `npm install`
 3. Run `npm run start:cjs` to run the CJS version
 4. Run `npm run start:esm` to run the ESM version
-
-## How to repro failure
-
-1. Delete `@azure/identity-broker` from `package.json`
-2. Delete node_modules and package-lock.json
-3. Run `npm install`
-4. Run `npm run start:cjs` to run the CJS version
-5. Run `npm run start:esm` to run the ESM version
-6. You should see the error `Error: Cannot find module '@azure/identity-broker'` in both cases.
