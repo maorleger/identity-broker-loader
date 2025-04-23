@@ -22,3 +22,7 @@ Installs the `@azure/identity-broker` package and loads it successfully.
 2. Run `npm install`
 3. Run `npm run start:cjs` to run the CJS version
 4. Run `npm run start:esm` to run the ESM version
+
+## Note
+
+`parentWindowHandle` of course needs to be something real, but I can demo the loading without having to set that up
